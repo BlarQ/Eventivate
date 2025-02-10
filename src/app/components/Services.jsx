@@ -9,7 +9,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className='px-5 sm:px-12 py-4'>
+    <div className='px-5 sm:px-12 py-4 scroll-mt-16' id='services'>
         <h1 className='text-3xl font-bold text-center'>What We Offer</h1>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 p-5'>

@@ -8,8 +8,8 @@ import Button from './Button';
 
 
 const links = [
-    { label: 'Home', href: '/' },
-    { label: 'Services', href: '/' },
+    { label: 'Home', href: '#home' },
+    { label: 'Services', href: '#services' },
     { label: 'Gallery', href: '/' },
     { label: 'Contact', href: '/' },
 ]
@@ -26,7 +26,7 @@ const Header = () => {
             {/* <Image className='size-14' src={Logo} alt='Logo' /> */}
             {/* placeholder logo */}
             <Link href='/' className='text-2xl font-semibold font-serif'>
-                <p>Event<span className='text-blue-500'>ivate</span></p>
+                <p>Event<span className='text-[#38b6ff]'>ivate</span></p>
             </Link>
 
             <div className='lg:flex hidden text-base items-center justify-between gap-12'>
